@@ -1,0 +1,83 @@
+body {
+  background-color: #131313;
+  color: white;
+  text-align: enter;
+  margin: 0 auto;
+}
+
+.wraper {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #131313;
+  width: 70%;
+  height: 100vh;
+  color: white;
+  border: 1px solid;
+  border-color: #000002;
+  -webkit-box-shadow: 0 1px 0 #29292b;
+  -moz-box-shadow: 0 1px 0 #29292b;
+  box-shadow: 0 1px 0 #29292b;
+  outline: 1px solid #28292c;
+}
+
+.title {
+  outline: 1px solid #28292c;
+  -webkit-box-shadow: 0 1px 0 #29292b;
+  -moz-box-shadow: 0 1px 0 #29292b;
+  box-shadow: 0 1px 0 #29292b;
+  border: 1px solid;
+  border-color: #000002;
+  padding-bottom: 1em;
+}
+
+
+
+.location {
+  width: 49%;
+  height: 50vh;
+  font-size: 3em;
+  outline: 1px solid #28292c;
+  -webkit-box-shadow: 0 1px 0 #29292b;
+  -moz-box-shadow: 0 1px 0 #29292b;
+  box-shadow: 0 1px 0 #29292b;
+  border: 1px solid;
+  border-color: #000002;
+  padding: 10% 0 10% 0;
+  float: left;
+  
+}
+
+.right_wraper {
+  float: right;
+  height: 50vh;
+  outline: 1px solid #28292c;
+  -webkit-box-shadow: 0 1px 0 #29292b;
+  -moz-box-shadow: 0 1px 0 #29292b;
+  box-shadow: 0 1px 0 #29292b;
+  border: 1px solid;
+  border-color: #000002;
+  padding: 5% 0 15% 0;
+  width: 50%;
+}
+
+.weather {
+  font-size: 1.5em;
+}
+
+.temperature {
+  font-size: 1.5em;
+}
+
+.btn {
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 800px) {
+  .location {
+    width: 100%;
+    height: 20vh;
+  }
+  .right_wraper {
+    width: 100%;
+  }
+}
